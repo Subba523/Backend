@@ -14,7 +14,7 @@ spec:
     spec:   #What state you desire for the object
       containers:
       - name: feedback #container name
-        image: '2122171060/myapp-5:feedbackdockerimage' #image name
+        image: '2122171060/myapp-10:feedbackdockerimage' #image name
         ports:
         - containerPort: 8086 # demo runs on port 8080
 ---
